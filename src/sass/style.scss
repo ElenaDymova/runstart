@@ -1,0 +1,31 @@
+@import 'base/variables';
+@import 'base/fonts.scss';
+
+* {
+	font-family: 'MuseoSansCyrl';
+	font-weight: 500;
+	font-size: 14px;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3{
+	margin: 0;
+}
+
+.container {
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+body {
+	margin: 0;
+}
+
+@import 'blocks/header.scss';
+@import 'blocks/button.scss';
+@import 'blocks/main-screen.scss';
+@import 'blocks/advantages.scss';
