@@ -37,3 +37,63 @@
 		}
 	}
 }
+
+@media (max-width: $tablet-width) {
+	.br {
+		display: none;
+	}
+	.advantages {
+
+		&__title{
+			font-size: 28px;
+		}
+
+		&__icons{
+			margin-top: 40px;
+		}
+
+		&__icon {
+			max-width: 195px;
+			img {
+				margin-bottom: 25px;
+			}
+		}
+
+		&__caption {
+			font-size: 16px;
+			margin-bottom: 15px;
+		}
+
+		&__describtion {
+			font-size: 12px;
+		}
+	}
+}
+
+@media (max-width: $mobile-width) {
+	.advantages {
+		&__title{
+			padding-top: 50px;
+			font-size: 25px;
+		}
+
+		&__icons {
+		flex-direction: column;
+		align-items: center;
+		padding-bottom: 50px;
+		margin-top: 30px;
+		}
+
+		&__icon {
+			margin-bottom: 20px;
+
+			img {
+				margin-bottom: 10px;
+			}
+		}
+
+		&__caption{
+			margin-bottom: 10px;
+		}
+	}
+}

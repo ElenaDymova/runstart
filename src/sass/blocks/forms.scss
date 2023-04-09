@@ -18,3 +18,19 @@
 		}
 	}
 }
+
+@media (max-width: $tablet-width) {
+	.feed__form {
+		input {
+			font-size: 12px;
+		}
+	}
+}
+
+@media (max-width: $mobile-width) {
+	.feed__form  {
+		justify-content: center;
+		width: 100%;
+		margin-top: 30px;
+	}
+}

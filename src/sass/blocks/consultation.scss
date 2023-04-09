@@ -16,3 +16,32 @@
 		color: $basic-white;
 	}
 }
+
+@media (max-width: $tablet-width) {
+	.consultation {
+		min-height: auto;
+		padding: 60px 0px;
+
+		&__title{
+			font-size: 30px;
+		}
+
+		&__text {
+			font-size: 14px;
+		}
+	}
+}
+
+@media (max-width: $mobile-width) {
+	.consultation {
+		
+	&__title {
+		font-size: 25px;
+	}
+
+	
+	&__text {
+		font-size: 12px;
+	}
+	}
+}

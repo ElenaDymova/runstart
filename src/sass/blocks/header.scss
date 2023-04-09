@@ -39,3 +39,41 @@
 	margin-bottom: 4px;
   }
 }
+
+@media (max-width: $tablet-width) {
+	.header {
+		&__company {
+			font-size: 16px;
+		  }
+
+		  &__phone {
+			font-size: 14px;
+		  }
+	}
+}
+
+@media (max-width: $mobile-width) {
+	.header {
+		display: flex;
+		flex-wrap: wrap;
+
+		&__logo {
+			width: 50%;
+	  }
+	
+	  &__info {
+		width: 50%;
+		align-items: flex-end;
+	  }
+
+	  &__contacts {
+		width: 100%;
+		align-items: left;
+	}
+
+	&__phone {
+		margin-top: 7px;
+	  }
+	}
+
+}
