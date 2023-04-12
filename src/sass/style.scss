@@ -29,7 +29,6 @@ h1, h2, h3{
 	 @media (max-width: $mobile-width) {
 		margin: 0 auto;
   		padding: 0 15px;
-		max-width: 300px;
 	 }
 }
 
@@ -42,4 +41,5 @@ body {
 @import 'blocks/main-screen.scss';
 @import 'blocks/advantages.scss';
 @import 'blocks/consultation.scss';
-@import 'blocks/forms.scss'
+@import 'blocks/forms.scss';
+@import 'blocks/carousel.scss'
