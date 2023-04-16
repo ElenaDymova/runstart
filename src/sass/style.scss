@@ -1,5 +1,5 @@
 @import 'base/variables';
-@import 'base/fonts.scss';
+@import 'base/fonts';
 
 * {
 	font-family: 'MuseoSansCyrl';
@@ -36,13 +36,15 @@ body {
 	margin: 0;
 }
 
-@import 'blocks/header.scss';
-@import 'blocks/buttons.scss';
-@import 'blocks/main-screen.scss';
-@import 'blocks/advantages.scss';
-@import 'blocks/consultation.scss';
-@import 'blocks/forms.scss';
-@import 'blocks/carousel.scss';
+@import 'blocks/header';
+@import 'blocks/advantages';
+@import 'blocks/buttons';
+@import 'blocks/main-screen';
+@import 'blocks/buttons';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
 @import 'blocks/catalog';
 @import 'blocks/feedback';
-@import 'blocks/footer'
+@import 'blocks/footer';
+@import 'blocks/modal';
